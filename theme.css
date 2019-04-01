@@ -2,13 +2,14 @@ body {
 background-color: #d1e2ff;
 }
 .div-top {
-	background-color: #2c6187;
-	border-radius: 12px;
+	border-color: #212121;
+	border-width: 5px;
+	border-radius: 5px;
 }
 .fronttext {
 	font-family: arial;
 	font-size: 100px;
-	font-weight: 6px;
+	font-weight: 10px;
 	color: #212121;
 	text-align: center;
 }
