@@ -4,16 +4,12 @@
   <title>-Snipet-</title>
   <link rel="stylesheet" type="text/css" href="theme.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+  
+  
+  
+  </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img src="https://snipet.github.io/Assets/main_logo.png" width="200" height="75" style="margin-right: 20px;">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-</nav>
+    <div id="nav"></div>
     <!-- End of nav -->
     <br>
     <br>
@@ -24,6 +20,12 @@
     <br>
     <p class="display-5" style="text-align: center;">Platforms you can find me on:</p>
     <a href="https://scratch.mit.edu/users/-Snipet-/"><img src="/Assets/scratch.png" width="400" height="400" style="display: block; margin-left: auto; margin-right: auto;"></a>
+ <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script>
+      $.get("nav.html", function(data){
+        $("#nav").html(data)
+      }
+    </script>
   </body>
 </html>
 
